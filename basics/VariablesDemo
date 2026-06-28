@@ -1,0 +1,11 @@
+public class VariablesDemo{
+public static void main(String[]args){
+
+String name = "Shalini";
+int age= 21;
+
+System.out.println("Name: " + name);
+System.out.println("Age: " + age);
+
+}
+}
