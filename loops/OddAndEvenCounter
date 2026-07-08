@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class OddAndEvenCounter{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter a number: ");
+        int n = sc.nextInt();
+        int even=0;
+        int odd=0;
+        
+        for(int i=1; i<=n; i++){
+        
+            
+            if(i%2==0){
+                System.out.println("Even numbers are: " +i);
+                even++;
+                
+            }else if(i%2!=0){
+                System.out.println("Odd numbers are: " +i);
+                odd++;
+                
+            }
+        }
+        System.out.println("Even number: " +even);
+        System.out.println("Odd number is: " + odd);
+        
+        sc.close();
+    }
+}
